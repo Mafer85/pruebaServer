@@ -6,10 +6,10 @@ import { Tarea } from '../entities/Tarea';
 
 export const AppDataSource = new DataSource({
   type: 'mysql',
-  host: 'localhost',
+  host: 'proyectodb.cf6osuma612a.us-east-1.rds.amazonaws.com',
   port: 3306,
   username: 'root',
-  password: '',  // Cambia esta contraseña por la correcta
+  password: 'Sept.305',  // Cambia esta contraseña por la correcta
   database: 'ProyectoDB',
   synchronize: false,  // Para desarrollo, en producción debe ser false
   logging: true,
